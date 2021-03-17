@@ -1,0 +1,29 @@
+{
+  "name": "js-rpc-messager",
+  "version": "1.0.0",
+  "description": "Simple client/server for sending messages over gRPC.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "node server.js",
+    "client": "node client.js"
+  },
+  "keywords": [
+    "gRPC",
+    "rpc",
+    "node",
+    "keyvaluepair",
+    "key",
+    "value",
+    "pair",
+    "cache",
+    "easy",
+    "rpc"
+  ],
+  "author": "Dillon Carns",
+  "license": "ISC",
+  "dependencies": {
+    "@grpc/grpc-js": "^1.2.11",
+    "@grpc/proto-loader": "^0.5.6"
+  }
+}

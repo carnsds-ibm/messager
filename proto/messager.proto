@@ -1,0 +1,24 @@
+/**
+* Written by Dillon Carns
+* proto file for key-value-rpc
+*/
+syntax = "proto3";
+
+package messager;
+
+// keyvalue service definition
+service Messager {
+    // sends a Request, expects response
+    rpc Send (Request) returns (Response) {}
+}
+
+// message request
+message Request {
+    string request = 1;
+}
+
+// message response
+message Response {
+    string response = 1;
+}
+
